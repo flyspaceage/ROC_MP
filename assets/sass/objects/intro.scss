@@ -1,0 +1,38 @@
+h1 {
+    color: #E77C22;
+    text-align: center;
+}
+
+
+.jumbotron {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/RM_three_females_meeting_rgb1280x540.png");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-txt {
+    text-align: center;  
+    font-family: Helvetica;
+    line-height: 20px;
+    margin: 1em;
+    text-transform: uppercase;
+
+    .bg-orange {
+        background-color: #E77C22;
+        color: #FFFFFF;
+        // opacity: 0.6;
+        padding: 1em;
+        mix-blend-mode: multiply;
+
+        h3 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+    }
+}

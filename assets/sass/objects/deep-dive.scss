@@ -1,0 +1,56 @@
+#deep-dive {
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #494B54;
+	line-height: 26px;
+	text-align: left;
+
+	h3 {
+		color: #6390C6;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+	p {
+		color: #494B54;
+	}
+
+	.left-half {
+		height: 400px;
+		width: 80%;
+		text-align: left;
+		margin: 0.5em;
+		padding: 1em;
+		//Center the div
+		position: absolute;
+  		left: 50%;
+  		top: 50%;
+  		transform: translate(-50%, -50%);
+	}
+
+	.right-half {
+		height: 400px;
+		width: 60%;
+		background-color: #466EA5;
+		border-radius: 5px;
+		color: #FFFFFF;
+		line-height: 36px;
+		margin: 0.5em;
+		padding: 1em;
+		//Center the div
+		position: absolute;
+  		left: 50%;
+  		top: 50%;
+  		transform: translate(-50%, -50%);
+	}
+}
+
+#call2action {
+	background-color: #E77C22;
+	border-radius: 5px;
+	padding: 0.5em;
+	color: #FFFFFF;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}

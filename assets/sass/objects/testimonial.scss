@@ -1,0 +1,111 @@
+.section {
+	display: inline-block;
+}
+
+.testimonial-title {
+	margin: 5em 0em 0em 2em;
+	// position: absolute;
+	// left: 50%;
+	// top: 50%;
+	// transform: translate(-50%, -50%);
+
+	h3 {
+		color: #E77C22;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+	p {
+		color: #494B54;
+		text-align: left;
+	}
+}
+
+.thoughts {
+	background: rgba(231,124,34,0.15);
+	border-radius: 38px;
+	width: 60%;
+	height: auto;
+	padding: 2em;
+	z-index: -200;
+	text-align: left;
+	margin: 0em 0em 0em 12em;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid rgba(231,124,34,0.15);
+	margin-left: 68%;
+}
+
+.speakers {
+	display: inline;
+	// width: 70%;
+}
+
+.human1,
+.human2,
+.human3,
+.human4 {
+	float:left;
+    position: relative;
+    width: 200px;
+    height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.human1:hover .visible {
+    display: none;    
+}
+
+.human1:hover .hidden {
+    display: inline;   
+}
+
+.human2:hover .visible {
+    display: none;   
+}
+
+.human2:hover .hidden {
+    display: inline;    
+}
+
+.human3:hover .visible {
+    display: none;   
+}
+
+.human3:hover .hidden {
+    display: inline;    
+}
+
+.human4:hover .visible {
+    display: none;   
+}
+
+.human4:hover .hidden {
+    display: inline;
+}
+
+.human1 img {
+	margin-left: 10em;
+}
+
+.human2 img {
+	margin-left: 5em;
+}
+
+.human3 img {
+	margin-left: 3em;
+}
+
+.human4 img {
+	margin-right: 10em;
+}
